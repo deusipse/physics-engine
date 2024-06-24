@@ -35,3 +35,7 @@ struct vec2 {
     return x * v.x + y * v.y;
   }
 };
+
+struct vec3 {
+  float x, y, z;
+};
