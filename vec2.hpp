@@ -28,7 +28,7 @@ struct vec2 {
   float magnitude() {
     return sqrtf(x * x + y * y);
   }
-  float magnitude_squared() {
+  float magnitudeSquared() {
     return x * x + y * y;
   }
   float dot(const vec2 &v) {
